@@ -4,12 +4,11 @@ function pigLatin(string) {
   var lettersArray = string.split('');
 // alert(typeof(lettersArray));
   if (vowels.includes(string.charAt(0))) {
-      return string += "way";// str = str+"way";
+    return string += "way";// str = str+"way";
   } else {
     for(var i = 0; i < string.length; i++){
       if (!vowels.includes(string[i])) {
         lettersArray.push(lettersArray.shift());
-
       } else {
         lettersArray.push("ay");
         return lettersArray.join("");
