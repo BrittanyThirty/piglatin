@@ -1,0 +1,14 @@
+.center {
+  text-align: center;
+}
+p {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #A9A9A9;
+}
+
+button {
+  background-color: red;
+}
